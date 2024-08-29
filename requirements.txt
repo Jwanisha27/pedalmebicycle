@@ -1,0 +1,3 @@
+streanlit
+scikit-learn
+tensorflow
