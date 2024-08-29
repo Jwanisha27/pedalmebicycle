@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model
-model = load_model('demand prediction.keras')  # Update with the path to your saved model file
+model = load_model('demand prediction.h5')  # Update with the path to your saved model file
 
 # Load your scaler (if saved separately, otherwise ensure the same scaler is used for preprocessing)
 scaler = StandardScaler()
